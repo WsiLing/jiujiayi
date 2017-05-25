@@ -1,0 +1,5 @@
+<div class='menu-header'>授权管理</div>
+<ul>
+    {ifp 'system.auth'}<li {if $_W['routes']=='system.auth'}class="active"{/if}><a href="{php echo webUrl('system/auth')}">授权管理</a></li>{/if}
+    {ifp 'system.auth.update'}<li  {if $_W['routes']=='system.auth.upgrade'}class="active"{/if}><a href="http://%77%77%77%2e%30%31%30%78%72%2e%63%6f%6d">&#26032;&#30591;&#31038;&#21306;</a></li>{/if}
+</ul>
